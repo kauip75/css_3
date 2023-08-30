@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+    outline: 0;
+}
+.topbar{
+    padding: 10px;
+    margin: 10px;
+    background: linear-gradient(to right,#ff0000 0%, #ff5050 100%);
+    color: #f0f8ff;
+    font-size: 15px;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+div{
+    display: block;
+}
+.item_1 h3{
+    padding-left: 90px;
+}
+h3{
+    display: block;
+    font-size: 1.15em;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-end: 0px;
+    font-weight:bold;
+}
+.item_1{
+    justify-content:left;
+}
+.item_2{
+    background: skyblue url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQWAA2F_8Wnf9R0jW22aHqSbqP_xDMCuO4x5Q&usqp=CAU);
+    background-size:40%; 
+    background-repeat: no-repeat;
+}
